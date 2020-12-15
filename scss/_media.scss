@@ -1,0 +1,137 @@
+
+@media screen and (max-width: 768px){
+  header{
+    nav{
+      .menu{
+        width: 100%;
+        height: 100vh;
+
+        position: absolute;
+        top: 0;
+        left: -100%;
+
+        background-color: $primaryColor;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 30px;
+        z-index: 5;
+        .phone-num{
+          padding: 20px 0;
+        }
+        &.show-menu{
+          left: 0;
+        }
+      }
+      .menu-icon{
+        display: block;
+        z-index: 9;
+        
+      }
+    }
+    .header-main{
+      &-title{
+        width: 100%;
+      }
+      &-img{
+        width: 100%;
+      }
+    }
+  }
+
+  main{
+    .content{
+      img{
+        width: 70%;
+      }
+      .text-box{
+        width: 100%;
+        margin: 30px 0;
+      }
+      .text-box1{
+        order: -1;
+      }
+    }
+  }
+
+  .partners{
+    &-content{
+      img{
+        padding: 20px;
+      }
+    }
+  }
+
+  .employee{
+    &-title{
+      width: 100%;
+    }
+  }
+
+  .employee-interest{
+    .content{
+      .title{
+        width: 100%;
+      }
+      img{
+        width: 100%;
+        margin-top: 30px;
+      }
+    }
+  }
+
+  .service{
+    .content{
+      .box{
+        flex-basis: 100%;
+      }
+    }
+  }
+
+  .resource{
+    .content{
+      .text-box{
+        width: 100%;
+      }
+      img{
+        width: 100%;
+      }
+    }
+  }
+
+  footer{
+    .content{
+      flex-direction: column;
+      h3{
+        margin: 20px 0;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 576px){
+  h1{
+    font-size: 42px;
+    line-height: 56px;
+  }
+  h2{
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .contact{
+    .content{
+      .text-box{
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      .input-box{
+        width: 100%;
+      } 
+    }
+  }
+
+}
